@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://1drv.ws/u/s!AoG43WhREFs4hZEnCFNM-1qcIGEZWw?e=XrvDoI'
+export_file_url = 'https://1drv.ws/u/s!AoG43WhREFs4hZI-VnR6-JJxV2bjTA?e=yqFWPQ'
 export_file_name = 'export.pkl'
 
 classes = ['bardenas', 'grancanon']
