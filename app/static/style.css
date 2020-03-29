@@ -1,7 +1,16 @@
 body {
     background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+.hero-image {
+    background-image: url("https://1drv.ws/u/s!AoG43WhREFs4hZErjEUvzZf_IhqcdA?e=FE3f78");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 .no-display {
     display: none;
 }
@@ -18,7 +27,7 @@ body {
     margin-top: 1em;
     margin-bottom: 1em;
     color: #262626;
-    font-family: "Lucida Console"
+    
 }
 
 .content {
@@ -32,14 +41,12 @@ body {
 .upload-label {
     padding: 10px;
     font-size: 12px;
-    font-family: "Lucida Console"
 }
 
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
     font-size: 13px;
-    font-family: "Lucida Console"
 }
 
 button.choose-file-button {
@@ -50,7 +57,6 @@ button.choose-file-button {
     border: solid 1px #7052CB;
     font-size: 13px;
     color: #7052CB;
-    font-family: "Lucida Console"
 }
 
 button.analyze-button {
@@ -61,7 +67,7 @@ button.analyze-button {
     background-color: #7052CB;
     font-size: 13px;
     color: #ffffff;
-    font-family: "Lucida Console"
+
 }
 
 button:focus {

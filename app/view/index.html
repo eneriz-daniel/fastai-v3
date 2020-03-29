@@ -6,32 +6,34 @@
 </head>
 <body>
 <div>
-  <div class='center'>
-    <div class='title'>¿Son las Bardenas o es el Gran Cañon?</div>
-    <p>
-      Usa imágenes de <strong>Bardenas Reales</strong> o del <strong>Gran Cañón</strong> y te decimos de dónde son!
-    </p>
-    <div class='content'>
-      <div class='no-display'>
-        <input id='file-input'
-               class='no-display'
-               type='file'
-               name='file'
-               accept='image/*'
-               onchange='showPicked(this)'>
-      </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Elige imagen</button>
-      <div class='upload-label'>
-        <label id='upload-label'>Todavía no has elegido una imagen :(</label>
-      </div>
-      <div>
-        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
-      </div>
-      <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analizar!</button>
-      </div>
-      <div class='result-label'>
-        <label id='result-label'></label>
+  <div class="hero-image">
+    <div class='center'>
+      <div class='title'>¿Son las Bardenas o es el Gran Cañon?</div>
+      <p>
+        Usa imágenes de <strong>Bardenas Reales</strong> o del <strong>Gran Cañón</strong> y te decimos de dónde son!
+      </p>
+      <div class='content'>
+        <div class='no-display'>
+          <input id='file-input'
+                class='no-display'
+                type='file'
+                name='file'
+                accept='image/*'
+                onchange='showPicked(this)'>
+        </div>
+        <button class='choose-file-button' type='button' onclick='showPicker()'>Elige imagen</button>
+        <div class='upload-label'>
+          <label id='upload-label'>Todavía no has elegido una imagen :(</label>
+        </div>
+        <div>
+          <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+        </div>
+        <div class='analyze'>
+          <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analizar!</button>
+        </div>
+        <div class='result-label'>
+          <label id='result-label'></label>
+        </div>
       </div>
     </div>
   </div>
